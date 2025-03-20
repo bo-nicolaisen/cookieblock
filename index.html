@@ -8,7 +8,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
+    <title>Dog Shelter</title>
     <meta name="description" content="">
     <link rel="shortcut icon" href="#">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,9 +17,54 @@
 </head>
 
 <body>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#dogs">Our Dogs</a></li>
+            <li><a href="#adopt">Adopt</a></li>
+        </ul>
+    </nav>
 
+    <section id="about">
+        <h1>About Our Shelter</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque leo nec orci fermentum, a cursus lorem facilisis.</p>
+    </section>
 
+    <section id="dogs">
+        <h1>Our Dogs</h1>
+        <div class="dog">
+            <img src="https://placehold.co/300x200" alt="Dog 1">
+            <h2>Dog 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="dog">
+            <img src="https://placehold.co/300x200" alt="Dog 2">
+            <h2>Dog 2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="dog">
+            <img src="https://placehold.co/300x200" alt="Dog 3">
+            <h2>Dog 3</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+    </section>
 
+    <section id="adopt">
+        <h1>Adopt a Dog</h1>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="dog">Dog:</label>
+            <select id="dog" name="dog">
+                <option value="dog1">Dog 1</option>
+                <option value="dog2">Dog 2</option>
+                <option value="dog3">Dog 3</option>
+            </select>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
 </body>
 
 </html>

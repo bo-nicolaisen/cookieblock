@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+nav {
+    background-color: #4CAF50; /* Green */
+    padding: 1em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 2em;
+    margin: 1em 0;
+}
+
+#about {
+    background-color: #FF9800; /* Orange */
+    color: white;
+}
+
+#dogs {
+    background-color: #8BC34A; /* Light Green */
+    color: white;
+}
+
+#dogs .dog {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    margin: 1em;
+}
+
+#dogs .dog img {
+    width: 100%;
+    height: auto;
+}
+
+#adopt {
+    background-color: #FFEB3B; /* Yellow */
+    color: black;
+}
+
+#adopt form {
+    display: flex;
+    flex-direction: column;
+}
+
+#adopt form label {
+    margin: 0.5em 0 0.2em;
+}
+
+#adopt form input, #adopt form select, #adopt form button {
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
