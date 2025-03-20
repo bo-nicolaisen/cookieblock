@@ -71,26 +71,7 @@ section {
     margin-bottom: 1em;
 }
 
-#blocker form {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-#blocker form label {
-    margin: 0.5em 0;
-}
-
-#blocker form div {
-    margin-top: 1em;
-}
-
-#blocker form button {
-    margin-right: 1em;
-    padding: 0.5em 1em;
-}
-
-#blocker {
+.blocker {
     position: fixed;
     top: 0;
     left: 0;
@@ -102,9 +83,29 @@ section {
     align-items: center;
 }
 
-#blocker section {
+.blocker form {
     background-color: white;
     padding: 2em;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.blocker form label {
+    margin: 0.5em 0;
+}
+
+.blocker form div {
+    margin-top: 1em;
+}
+
+.blocker form button {
+    margin-right: 1em;
+    padding: 0.5em 1em;
+}
+
+.hidden {
+    display: none;
 }
